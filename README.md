@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Live Cricket Scores Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a live cricket scores web application built with **React** that fetches and displays real-time cricket match scores. The app showcases live scores, match status, and other relevant details such as teams playing, current score, and match status.
 
-## Available Scripts
+## Features
+- Display live cricket match scores.
+- Show team logos for both teams.
+- Display match status (e.g., match in progress, match ended).
+- Interactive and responsive UI using React.
+- Mock data for demonstration (can be replaced with real API integration).
 
-In the project directory, you can run:
+## Tech Stack
+- **Frontend**: React.js, CSS
+- **UI Framework**: Bootstrap (for responsiveness)
+- **State Management**: React's `useState` and `useEffect`
 
-### `npm start`
+## Project Structure
+/src /assets - Team logos (flag images) used to represent each cricket team (e.g., India, Australia, etc.)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+/components - LiveScores.js: React component that handles the fetching and displaying of live cricket scores. This component contains the layout and logic to display match details like teams, scores, and statuses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+/pages - LiveScores.css: Contains the CSS styles for the LiveScores page. These styles manage the layout, color scheme, and responsiveness of the live score cards and match information.
 
-### `npm test`
+App.js - Main entry point for the application. It renders the LiveScores component and applies global styles.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+index.js - The entry point for React to render the app into the DOM. It typically contains ReactDOM.render to display the root component (App.js) into the HTML element with id="root".
 
-### `npm run build`
+package.json - Manages project dependencies (like React, Bootstrap) and scripts (such as npm start).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+/public - index.html: The single HTML page for your app, which includes the root div element (<div id="root"></div>) where your React app will be injected.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+/node_modules - This folder contains all the installed npm packages and their dependencies for the project (don’t modify this folder manually).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Setup Instructions
+Clone the repository:
 
-### `npm run eject`
+bash
+Copy
+Edit
+git clone https://github.com/<your-username>/live-cricket-scores.git
+Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+Edit
+cd live-cricket-scores
+Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+nginx
+Copy
+Edit
+npm install
+Run the app:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+sql
+Copy
+Edit
+npm start
+Open your browser and go to http://localhost:3000 to view the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Screenshots
 
-## Learn More
+(You can add a screenshot of your app here.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Future Enhancements
+Integrate with a real API to fetch live scores.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Add support for more cricket match stats.
 
-### Code Splitting
+Improve UI/UX with additional interactive elements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Implement match filters (e.g., by team, by series).
 
-### Analyzing the Bundle Size
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Acknowledgements
+React
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bootstrap
