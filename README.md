@@ -6,9 +6,12 @@ This is a **live cricket scores** web application built with **React** that fetc
 
 ## 🖼️ Screenshot
 
-Here is a screenshot of the live cricket scores application:
+![Uploading Screenshot (64).png…]()
 
-![Live Cricket Scores Screenshot](public/images/Screenshot.png)
+
+
+
+
 
 
 
