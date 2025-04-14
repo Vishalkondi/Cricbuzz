@@ -4,6 +4,9 @@ This is a **live cricket scores** web application built with **React** that fetc
 
 ---
 
+![Uploading Screenshot (64).png…]()
+
+
 ## 📝 Features
 
 - 📊 Display live cricket match scores.
