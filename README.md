@@ -2,7 +2,8 @@
 
 This is a live cricket scores web application built with **React** that fetches and displays real-time cricket match scores. The app showcases live scores, match status, and other relevant details such as teams playing, current score, and match status
 
-E:\cricket-website\src\assets\Screenshot (64).png
+![Uploading Screenshot (64).png…]()
+
 
 
 
